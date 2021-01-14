@@ -1,7 +1,7 @@
-# 기준 데이터(피벗)을 설정하고 
+# 기준 데이터(피벗)을 설정하고
 # 그 기준보다 큰 데이터와 작은 데이터의 위치를 바꿈
 #
-# 퀵 정렬은 피벗을 설정하고 
+# 퀵 정렬은 피벗을 설정하고
 # 리스트를 분할하는 방법에 따라서
 # 여러가지 방식이 있음
 #
@@ -36,7 +36,6 @@ def quick_sort(array, start, end):
 
 quick_sort(array, 0, len(array) - 1)
 print(array)
-
 """
 # 파이썬만의 퀵 정렬
 # 코드가 직관적이나 기존 퀵 정렬보단 비효율적임
@@ -59,3 +58,4 @@ def quick_sort(array):
 
 array = quick_sort(array)
 print(array)
+"""
