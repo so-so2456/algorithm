@@ -2,3 +2,25 @@
 
 정렬: 데이터를 특정한 기준에 따라서 순서대로 나열
 종류: 선택, 삽입, 퀵, 계수 정렬 등등
+
+===파이썬의 정렬 라이브러리===
+
+최악의 경우에도 시간 복잡도 O(NlogN)을 보장함
+
+1. sorted()
+
+    result = sorted(array)
+
+2. sort()
+
+    array.sort()
+
+두 함수를 이용할 때 key 매개변수를 입력으로 받을 수 있음
+
+    array = [('바나나', 2), ('사과', 5), ('당근', 3)]
+
+    def setting(data):
+        return data[1]
+
+    result = sorted(array, key=setting)
+    print(result)
